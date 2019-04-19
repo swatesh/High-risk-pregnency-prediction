@@ -1,0 +1,69 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link  rel="stylesheet" type="text/css"  href="static/style.css">
+
+<title>RISK PREDICTION</title>
+</head>
+<body> 
+<div class="container">
+  <form action="/hello" method="POST">
+    <div class="row">
+      <div class="col-25">
+        <label for="mweight">Mother's Weight</label>
+      </div>
+      <div class="col-75">
+        <input type="number" id="weight" name="weight" placeholder="Mother's Weight">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="mage">Mother's Age</label>
+      </div>
+      <div class="col-75">
+        <input type="number" id="age" name="age" placeholder="Mother's Age">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="disease">Chronic Disease</label>
+      </div>
+      <div class="col-75">
+        <select id="disease" name="disease">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="rh">RH</label>
+      </div>
+      <div class="col-75">
+        <select id="rh" name="rh">
+          <option value="1">Positive</option>
+          <option value="0">Negative</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="period">Gestational Period</label>
+      </div>
+      <div class="col-75">
+        <input type="number" id="period" name="period" placeholder="Gestational Period">
+      </div>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="space">            </label>
+      </div>
+    <div class="row">
+      <input type="submit" value="Predict">
+    </div>
+  </form>
+</div> 
+
+</body> 
+</html>
