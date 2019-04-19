@@ -1,0 +1,5 @@
+tensorflow=1.12.0
+keras=2.24
+pandas
+os
+numpy
